@@ -177,9 +177,7 @@ int main(void)
 \*\*正常显示 \*
 
 # 公式
-$$
- E \approx mc^2
-$$
+！[](http://latex.codecogs.com/gif.latex?a^{b})
 
 
 
