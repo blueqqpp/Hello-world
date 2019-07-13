@@ -176,9 +176,9 @@ int main(void)
 
 \*\*正常显示 \*
 
-#公式
+# 公式
 
-E \approx mc^2
+ E \approx mc^2
 
 
 
