@@ -177,7 +177,7 @@ int main(void)
 \*\*正常显示 \*
 
 # 公式
-！[](http://latex.codecogs.com/gif.latex?a^{b})
+![](http://latex.codecogs.com/gif.latex?a^{b})
 
 
 
@@ -211,8 +211,7 @@ int main(void)
 
 
 
-
-​                                                                                                                                                                    
+                                                                                                                                                              
 
 
 
