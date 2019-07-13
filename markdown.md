@@ -175,6 +175,7 @@ int main(void)
 **文本加粗**
 
 \*\*正常显示 \*
+
 $$
 \mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
