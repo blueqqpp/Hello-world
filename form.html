@@ -76,14 +76,14 @@
    {
        var x,age;
        x=document.forms["myForm"]["username"].value;
-       age=document.getElementById("num");
+      // age=document.getElementById("num");
        if(x==''){
             alert("必须输入用户名");
             return false;
        }
-       if(age.checkValidity()==false){
-           document.getElementById("demo").innerHTML=age.validationMessage;
-       }
+//        if(age.checkValidity()==false){
+//            document.getElementById("demo").innerHTML=age.validationMessage;
+//        }
     }
   </script>
 
