@@ -6,7 +6,7 @@
 
   在下载过程中,直接点击主页面的download是不可以下载的，要点击sourceforge，进入后找到3.0.0版本，找到64位进行下载。下载完后按照步骤一步步（next）进行安装。
   
-  ![download](F:\web阶段学习任务\picture\Inkeddownload_LI.jpg)
+  ![download](Inkeddownload_LI.jpg)
   
   
 
@@ -129,17 +129,17 @@
 
 * 图表
 
-  ![form](F:\web阶段学习任务\picture\table.png)
+  ![form](table.png)
 
 * js验证
 
   * 用户名不为空
 
-    ![user](F:\web阶段学习任务\picture\username.png)
+    ![user](username.png)
 
   * 年龄在一定范围内
 
-    ![age](F:\web阶段学习任务\picture\value.png)
+    ![age](value.png)
 
 ## 3.php获取表单，连接数据库
 
@@ -228,7 +228,7 @@
 
 * 获取结果
 
-  ![touch](F:\web阶段学习任务\picture\touch.png)
+  ![touch](touch.png)
 
   
 
@@ -236,13 +236,13 @@
 
   * 连接数据库
 
-    ![database](F:\web阶段学习任务\picture\database.png)
+    ![database](database.png)
 
     
 
   * 动态获取数据，进行插入
 
-    ![data](F:\web阶段学习任务\picture\insert.png)
+    ![data](insert.png)
 
   
 
