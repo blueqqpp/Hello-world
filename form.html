@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+      #demo{
+          color: red;
+      }
+      form{
+          margin-left:10px;
+      }
+      table{
+          border-collapse: collapse;
+        
+      }
+      table tr td{
+          border: solid black 1px;
+      }
+      table #submit{
+         text-align:center;
+         width: 30px;
+      }
+    </style>
+        
+</head>
+<body>
+   <form action="http://localhost/welcome.php" method="POST" name="myForm">
+       <table>
+           <tr>
+                <td>User name:</td>
+                <td> <input type="text" name="username" required></td> 
+           </tr>
+            <tr>
+                   <td> User password:</td>  
+                   <td><input type="password" name="pwd"></td>
+            </tr>
+            <tr>
+                <td>email:</td>
+                <td><input type="text" name="email" id="email"></td>
+            </tr>
+       <tr>
+           <td>sex:</td>
+           <td><input type="radio" name="sex" value="male" checked>male
+            <input type="radio" name="sex" value="female">female</td>
+       </tr>
+       <tr>
+           <td>job:</td>
+           <td><select name="job">
+                <option value="student">student</option>
+                <option value="worker">worker</option>
+            </select></td>
+       </tr>
+        <tr>
+               <td>age:</td> <td><input type="number" name="age" min="16" max="100" required></td>
+        </tr>
+       <tr>
+          <td>Hobbies:</td>  
+          <td><input type="checkbox" name="hobby[]" value="reading">I like reading.
+            <input type="checkbox" name="hobby[]" value="running">I like running.
+            <input type="checkbox" name="hobby[]" value="games">I like playing games.
+            <input type="checkbox" name="hobby[]" value="TV">I like watching TV.
+        </td>
+       </tr>
+       <tr>
+            <td colspan="2" id="submit"><button type="submit" onclick="myFunction()">提交</button></td>
+       </tr>
+       </table>
+        
+   </form>
+    <p id="demo"></p>
+  <script>
+   function myFunction() 
+   {
+       var x,age;
+       x=document.forms["myForm"]["username"].value;
+      // age=document.getElementById("num");
+       if(x==''){
+            alert("必须输入用户名");
+            return false;
+       }
+//        if(age.checkValidity()==false){
+//            document.getElementById("demo").innerHTML=age.validationMessage;
+//        }
+    }
+  </script>
+
+</body>
